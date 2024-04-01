@@ -1,0 +1,51 @@
+/* Styles for navigation elements */
+nav {
+    background-color: cyan;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+/* Styles for dropdown menus */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: cornflowerblue;
+}
+
+nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+nav ul ul li a {
+    padding: 10px;
+    color: #fff;
+}
+
+nav ul ul li a:hover {
+    background-color: #008080;
+}
