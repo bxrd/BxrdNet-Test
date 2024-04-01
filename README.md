@@ -31,4 +31,4 @@ Contributions are welcome! If you'd like to contribute to BxrdNet, please follow
 
 ## Contact
 
-If you have any questions or suggestions regarding BxrdNet, feel free to reach out to us at [your contact information here].
+If you have any questions or suggestions regarding BxrdNet, feel free to reach out to us at BxrdNet@gmail.com.
