@@ -6,14 +6,12 @@ Welcome! This is a test project for BxrdNet.
 
 To get started with BxrdNet, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/BxrdNet.git`
+1. Clone the repository: `git clone https://github.com/Bxrd/BxrdNet-Test.git`
 2. Install the dependencies: `npm install`
 
 ## Usage
 
-To use BxrdNet, follow these steps:
-
-1. [Add instructions on how to use your project here]
+I'm using this application as a test for BxrdNet
 
 ## Contributing
 
@@ -27,8 +25,10 @@ Contributions are welcome! If you'd like to contribute to BxrdNet, please follow
 
 ## License
 
-[Choose an appropriate license for your project and mention it here]
+This project currently does NOT operate under any license
 
 ## Contact
 
 If you have any questions or suggestions regarding BxrdNet, feel free to reach out to us at BxrdNet@gmail.com.
+
+

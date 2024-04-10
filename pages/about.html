@@ -6,37 +6,64 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>About Me</title>
+		<meta name="author" content="Tyler Kennedy">
+		<meta name="description" content="This is the about me page to my test flight of BxrdNet. Hello world, I'm Tyler Kennedy otherwise known as Bxrd and this page contains information about myself, my skills and my projects. Thanks for visiting!">
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="/home/bxrd/repos/BxrdNet-Test/styles/styles.bxrdnet.css">
+		<link rel="stylesheet" type="text/css" href="/styles/styles.bxrdnet.css">
+		<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+		<title>About Me</title>
 	</head>
+	<body>
 	<header>
 		<h1><strong>BxrdNet: About Me</strong></h1>
 	</header>
 	<nav>
 		<ul>
-			<li><a href="/home/bxrd/repos/BxrdNet-Test/index.html">Home</a></li>
-			<li><a href="pages/about.html">About Me</a></li>
-			<li><a href="contact.html">Contact</a></li>
+			<li><a href="/index.html">Home</a></li>
+			<li><a href="about.html">About Me</a></li>
+			<li><a href="/pages/contact.html">Contact</a></li>
 		</ul>
 	</nav>
+	<hr>
 	<main>
-		<body>
-			<?php include 'header.php'; ?>
-			<div class="content">
+		<div class="content">
+			<section id="intro">
 				<h1>About</h1>
 				<p>
 					My name is Tyler, but you may know me as Bxrd. I dropped out of college during the COVID epidemic, where I initially studied Electronic Engineering. However, after completing a coding project at the end of my first year, I discovered my passion for Software Development and switched my major.
-
+					<br>
 					I spent a year studying Software Development before COVID hit, and since then, I've been laying low. However, my love for programming has continued to burn. BxrdNet, formerly known as "GlobeGnome," has been in development since my college days.
-
+					<br>
 					Now, I'm ready to lift BxrdNet off the ground and bring innovation and clarity to my websites. I believe in the power of collaboration with other developers and helping individuals in their own journey. BxrdNet is an interactive, open-minded, free speech-first platform that aims to empower and inspire.
 				</p>
-				<img src="../images/bxrdnetLogo-watermarked.png" alt="a random pug who likes BxrdNet, Dog">
+			</section>
+			<hr>	
+			<section id="skills">
+				<h2>My Skills</h2>
+				<p>
+					I'm learning and have experience with the following programming languages and technologies:
+				</p>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>Python</li>
+						<li>SQL</li>							<li>PHP</li>
+						<li>React</li>
+						<li>Node.js</li>
+						<li>Git</li>
+						<li>Linux</li>
+						<li>.NET</li>
+						<li>FTP</li>
+						<li>HTTPS</li>
+					</ul>
+					<p>	
+					My main ambition is to successfully launch BxrdNet and grow my skills as a Full-Stack Web Developer. I admire webmasters and I am interested in internet protocols, HTTPS, and everything required to develop, design, publish, host, service, and maintain websites.
+					</p>
+			</section>	
+			<hr>
+				<img src="../images/bxrdnetLogo-watermarked.png" alt="The official watermarked logo of BxrdNet. It features a black net attempting to catch a knowing, baby blue bird.">
 			</div>
-			<div>
-			</div>
-			<?php include 'footer.php'; ?>
 		</body>
 	</main>
 </html>
