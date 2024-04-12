@@ -30,5 +30,3 @@ This project currently does NOT operate under any license
 ## Contact
 
 If you have any questions or suggestions regarding BxrdNet, feel free to reach out to us at BxrdNet@gmail.com.
-
-

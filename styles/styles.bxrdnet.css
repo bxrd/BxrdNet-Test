@@ -18,7 +18,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 10px;
-    color: #fff;
+    color: #050505;
     text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ nav ul ul {
     display: none;
     position: absolute;
     top: 100%;
-    background-color: cornflowerblue;
+    background-color: rgb(168, 6, 243);
 }
 
 nav ul ul li {
@@ -43,9 +43,27 @@ nav ul ul li {
 
 nav ul ul li a {
     padding: 10px;
-    color: #fff;
+    color: #b007f3;
 }
 
 nav ul ul li a:hover {
     background-color: #008080;
+}
+
+#link {
+    color: #ea00ff;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 48px
+}
+
+#git {
+    background: linear-gradient(to right, fuchsia, cyan);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
 }
